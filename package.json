@@ -1,13 +1,14 @@
 {
   "name": "quizappapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Quiz App API is a RESTful API for creating and managing quizzes. Users can create quizzes with multiple choice questions, share the quizzes with others, and view the participants' scores.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arya Soni",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
